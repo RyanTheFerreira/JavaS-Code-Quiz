@@ -1,3 +1,4 @@
+// Variables
 var scores = 0;        
 var timer = 45         
 var interval;
@@ -344,6 +345,8 @@ var showInitialsScore = function () {
     container.appendChild(msg);
     container.appendChild(span);
 };
+
+//setting the Timer for the quiz
 var clockTime = function () {
     
     if(checkingTimer()){
